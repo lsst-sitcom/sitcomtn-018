@@ -1,0 +1,9 @@
+% bibentry template for lsst.bib in https://github.com/lsst/lsst-texmf/blob/master/texmf/bibtex/bib/lsst.bib
+
+@DocuShare{SITCOMTN-018,
+   author = { Craig Lage },
+    title = {Working with Rubin EFD timestamps.},
+     year = 2021,
+    month = Aug,
+   handle = {SITCOMTN-018},
+      url = {https://sitcomtn-018.lsst.io } }
