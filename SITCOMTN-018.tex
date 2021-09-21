@@ -102,6 +102,10 @@ There are several pieces of learning that came out of this exercise:
     \item When using lsst\_efd\_client.merge\_packed\_time\_series, you currently need to override the default (internal\_time\_scale="tai"), and specify (internal\_time\_scale="utc").  I am unclear as to the resolution of this, but it has been reported that this is an astropy bug that is being worked on.
 \end{enumerate}
 
+\section{Future plans}
+
+According to \url{https://jira.lsstcorp.org/browse/RFC-767}, the plan going forward is to change all future timestamps in the EFD to be in UTC.  The time frame for making this change is unclear.  I assume that this will then change the DATE-BEG and DATE-END keywords in the headers to be in UTC as well, but I don't know if this is the case or not.
+
 
 
 % You can also use the \input command to include several content files.
